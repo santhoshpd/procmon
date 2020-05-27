@@ -1,21 +1,49 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import HeroImage from '../components/HeroImage'
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Features from './features'
+import ApiModal from './apimodal'
+import { BrowserRouter } from "react-router-dom";
 
-const IndexPage = () => (
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faSlack} from '@fortawesome/free--svg-icons'
+const IndexPage = (props) => (
+  <BrowserRouter>
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="pt-5 mb-0 pb-6">
+    <section className="pt-10 md-pt-15">
+      <div className="container mx-auto px-8 lg-flex">
+        <div className="row">
+          <div className="text-center lg-text-left mr-5 col-lg-4">
+            <div className="title-block">
+              <h2>Simple and Effective Cron Job Monitoring</h2>
+              <p>Receive alerts when your nightly backups, weekly reports, cron jobs and scheduled tasks don't run on time.</p>
+            </div>
+            <p className="mt-8 md:mt-12">
+              <button className="btn btn-buy" size="lg">Get Started</button>
+            </p>
+          </div>
+        <div className=" col-lg-7">
+          <HeroImage />
+        </div>
+        </div>
+      </div>
+    </section>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Features/>
+    
+  {/*<Api/>*/}  
+  <ApiModal/>
+  <div className="pt-5 mb-0">
+        <div className="container">
+        <div className="title-block lg-text-4xl">
+            <h2>Integrations</h2>
+        </div>
+        </div>
+    </div>
+    <i className="fab fa-slack"></i>
   </Layout>
+  </BrowserRouter>
 )
 
 export default IndexPage
