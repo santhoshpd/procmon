@@ -68,7 +68,7 @@ const About = () => (
       <h2>Create your first 5 job monitors for free!</h2>
       <div className="title-block">
         <p>It only takes a few minutes to install.</p>
-        <a href="/" className="btn btn-regular">Get Started</a>
+        <a href="/about" className="btn btn-regular">Get Started</a>
       </div>
     </div>
   </section>

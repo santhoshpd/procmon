@@ -28,7 +28,7 @@ const Pricing = () => (
               <li><i className="icon ion-md-checkmark-circle-outline demo"></i>Five projects - <span className="demo">New!</span></li>
             </ul>
             <div className="text-center">
-              <a href="/" className="btn btn-demo">Demo version</a>
+              <a href="/signup" className="btn btn-demo">Demo version</a>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Pricing = () => (
               <li><i className="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>New!</span></li>
             </ul>
             <div className="text-center">
-              <a href="/" className="btn btn-buy">Buy now</a>
+              <a href="/signup" className="btn btn-buy">Buy now</a>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const Pricing = () => (
               <li><i className="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>New!</span></li>
             </ul>
             <div className="text-center">
-              <a href="/" className="btn btn-buy">Buy now</a>
+              <a href="/signup" className="btn btn-buy">Buy now</a>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Footer = () => (
         <div className="col-md-3">
           <h5>General</h5>
           <ul className="list-unstyled">
-              <li><a href="/">Home</a></li> 
+              <li><a href="/home">Home</a></li> 
               <li><a href="/about">About</a></li>
               <li><a href="/pricing">Pricing</a></li> 
             </ul>
